@@ -1,130 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bader Amer's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bader Amer - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
-  <header>
-    <h1>BADER AMER</h1>
-    <p>Computer Engineer</p>
-    <p>+970 0560110056 | baderamer1000@gmail.com</p>
-    <p><a href="https://www.linkedin.com/in/baderamer/"> linkedin</a> | <a href="https://github.com/baderamerthefirst">GitHub</a> | <a href="https://bader-amer.netlify.app/" >Portfolio</a></p>
-    <p>Mas-ha, Salfit</p>
-  </header>
+    <header class="site-header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact-me.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="contact-me.html">Contact</a></li>
-    </ul>
-  </nav>
+    <main class="main-content">
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>BADER AMER</h1>
+                <h2>Computer Engineer</h2>
+                <div class="contact-info">
+                    <p>+970 0560110056 | baderamer1000@gmail.com</p>
+                    <p>Mas-ha, Salfit</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/baderamer/" target="_blank" class="social-link">LinkedIn</a>
+                    <a href="https://github.com/baderamerthefirst" target="_blank" class="social-link">GitHub</a>
+                    <a href="https://bader-amer.netlify.app/" target="_blank" class="social-link">Portfolio</a>
+                </div>
+            </div>
+        </section>
 
-  <section id="about">
-    <h2>SUMMARY</h2>
-    <p>Seasoned Computer Engineer with a rich mix of software development, database optimization, and web app creation. Excel in Java, Python, and JavaScript; eager to contribute to your team with proven full-stack expertise and a collaborative, detail-oriented approach.</p>
-  </section>
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>Seasoned Computer Engineer with a rich mix of software development, database optimization, and web app creation. Excel in Java, Python, and JavaScript; eager to contribute to your team with proven full-stack expertise and a collaborative, detail-oriented approach.</p>
+        </section>
 
-  <section>
-    <h2>EXPERIENCE</h2>
-    <h3>Database Support</h3>
-    <p>Egyptian Arab Land Bank | 09/2023 - Present | Al-Bireh</p>
-    <ul>
-      <li>Mobile API Testing: Collaborated with a third-party development team to test the bank's mobile applications (Android and iOS). Used Postman to thoroughly test all mobile APIs, ensuring they met the required standards for performance and reliability.</li>
-      <li>Expertise in Oracle SQL and PL/SQL for report generation and database object creation, including functions, procedures, packages, and views.</li>
-      <li>Skilled in developing detailed reports and constructing targeted queries for effective banking issue resolution.</li>
-      <li>Engineered a full-stack ticketing system leveraging React, Node.js, and Oracle database, incorporating file management and JWT-based authentication.</li>
-      <li>Implemented Docker to containerize the backend and frontend of the bank's ticketing management application. Utilized Docker Compose to orchestrate and manage the containers, streamlining the deployment and testing processes.</li>
-      <li>Demonstrated teamwork by collaboratively refining and upgrading the ticketing application to meet evolving requirements.</li>
-    </ul>
-    <h3>Backend-Database-Intern</h3>
-    <p>Progineer Technologies | 06/2023 - 08/2023 | Al-Bireh</p>
-    <ul>
-      <li>Developed a strong understanding of databases and their performance characteristics, with a focus on Oracle, Cassandra, and MongoDB.</li>
-      <li>Explored the differences between the three databases in terms of performance and best use cases, enabling informed decision-making for data storage solutions.</li>
-      <li>Built a user-friendly GUI using Python to interact with the databases.</li>
-      <li>Gained practical knowledge in Oracle statistics and their role in performance tuning, contributing to the optimization of database operations.</li>
-    </ul>
-  </section>
+        <section id="experience" class="experience-section">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Database Support</h3>
+                <p class="job-details">Egyptian Arab Land Bank | 09/2023 - Present | Al-Bireh</p>
+                <ul>
+                  <li>Mobile API Testing: Collaborated with a third-party development team to test the bank's mobile applications (Android and iOS). Used Postman to thoroughly test all mobile APIs, ensuring they met the required standards for performance and reliability.</li>
+                  <li>Expertise in Oracle SQL and PL/SQL for report generation and database object creation, including functions, procedures, packages, and views.</li>
+                  <li>Skilled in developing detailed reports and constructing targeted queries for effective banking issue resolution.</li>
+                  <li>Engineered a full-stack ticketing system leveraging React, Node.js, and Oracle database, incorporating file management and JWT-based authentication.</li>
+                  <li>Implemented Docker to containerize the backend and frontend of the bank's ticketing management application. Utilized Docker Compose to orchestrate and manage the containers, streamlining the deployment and testing processes.</li>
+                  <li>Demonstrated teamwork by collaboratively refining and upgrading the ticketing application to meet evolving requirements.</li>
+            </ul>
+            </div>
+            <div class="job">
+                <h3>Backend-Database-Intern</h3>
+                <p class="job-details">Progineer Technologies | 06/2023 - 08/2023 | Al-Bireh</p>
+                <ul>
+                  <li>Developed a strong understanding of databases and their performance characteristics, with a focus on Oracle, Cassandra, and MongoDB.</li>
+                  <li>Explored the differences between the three databases in terms of performance and best use cases, enabling informed decision-making for data storage solutions.</li>
+                  <li>Built a user-friendly GUI using Python to interact with the databases.</li>
+                  <li>Gained practical knowledge in Oracle statistics and their role in performance tuning, contributing to the optimization of database operations.</li>
+               </ul>
+            </div>
+        </section>
+        <section id="education" class="section education-section">
+          <h2 class="section-title">EDUCATION</h2>
+          <table class="education-table">
+              <tr>
+                  <th>Degree</th>
+                  <th>Institution</th>
+                  <th>Period</th>
+                  <th>Achievement</th>
+              </tr>
+              <tr>
+                  <td>Bachelor of Computer Engineering</td>
+                  <td>Birzeit University</td>
+                  <td>09/2018 - 07/2023</td>
+                  <td>Achieved honor list recognition a couple times</td>
+              </tr>
+              <tr>
+                  <td>High School</td>
+                  <td>Masha old times-2018</td>
+                  <td>-2018</td>
+                  <td>Finished first in class with 98.9</td>
+              </tr>
+          </table>
+      </section>
 
-  <section>
-    <h2>EDUCATION</h2>
-    <table border="1">
-      <tr>
-        <th>Degree</th>
-        <th>Institution</th>
-        <th>Period</th>
-        <th>Achievement</th>
-      </tr>
-      <tr>
-        <td>Bachelor of Computer Engineering</td>
-        <td>Birzeit University</td>
-        <td>09/2018 - 07/2023</td>
-        <td>Achieved honor list recognition a couple times</td>
-      </tr>
-      <tr>
-        <td>High School</td>
-        <td>Masha old times-2018</td>
-        <td>-2018</td>
-        <td>Finished first in class with 98.9</td>
-      </tr>
-    </table>
-  </section>
+      <section id="languages" class="section languages-section">
+          <h2 class="section-title">LANGUAGES</h2>
+          <ul class="language-list">
+              <li class="language-item">Arabic: Native</li>
+              <li class="language-item">English: Proficient</li>
+          </ul>
+      </section>
 
-  <section>
-    <h2>LANGUAGES</h2>
-    <ul>
-      <li>Arabic: Native</li>
-      <li>English: Proficient</li>
-    </ul>
-  </section>
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li class="skill-item">Oracle SQL, PL/SQL</li>
+                <li class="skill-item">React, JavaScript, CSS, PHP, and HTML</li>
+                <li class="skill-item">Git & GitHub</li>
+                <li class="skill-item">Java, C, Python</li>
+                <li class="skill-item">Agile & Scrum Methodologies</li>
+                <li class="skill-item">Linux, Network Protocols</li>
+                <li class="skill-item">MS Office, Photoshop</li>
+                <li class="skill-item">Video Editing</li>
+            </ul>
+        </section>
 
-  <section>
-    <h2>SKILLS</h2>
-    <ul>
-      <li>Oracle SQL, PL/SQL</li>
-      <li>React, JavaScript, CSS, PHP, and HTML</li>
-      <li>Git & GitHub</li>
-      <li>Java, C, Python</li>
-      <li>Agile & Scrum Methodologies</li>
-      <li>Linux, Network Protocols</li>
-      <li>MS Office, Photoshop</li>
-      <li>Video Editing</li>
-      <li>Collaborative Team Player</li>
-      <li>Work under Pressure</li>
-    </ul>
-  </section>
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="images/football.jpg" alt="Football Team Management Web App" class="project-image">
+                    <h3>Football Team Management Web App</h3>
+                    <p>Developed a PHP and MySQL-powered web application for efficient football team management.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/graduation.jpg" alt="Air Pollution Measurement System" class="project-image">
+                    <h3>Air Pollution Measurement System</h3>
+                    <p>Led a team in developing an air pollution measurement system using Arduinos and Raspberry Pi.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/snake.jpg" alt="Snake-like Game" class="project-image">
+                    <h3>Snake-like Game (Java)</h3>
+                    <p>Programmed a snake-like game in Java using object-oriented programming principles.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-  <section id="projects">
-    <h2>PROJECTS</h2>
-    <h3>Football Team Management Web App</h3>
-    <img src="images/football.jpg" alt="Football Team Management Web App" width="300" height="200">
-    <p>Developed a PHP and MySQL-powered web application for efficient football team management. Implemented user registration, login, dynamic team creation, editing, and deletion features. Demonstrated full-stack development skills.</p>
-    <h3>Graduation (Air Pollution Measurement System)</h3>
-    <img src="images/graduation.jpg" alt="Air Pollution Measurement System" width="300" height="200">
-    <ul>
-      <li>Led a team of 3 students in developing an air pollution measurement system as a part of the graduation project using Arduinos and Raspberry Pi with wireless communication.</li>
-      <li>Developed a user-friendly GUI for the Raspberry Pi using Python, enabling users to view and analyze different sensor readings through interactive charts based on selected time ranges (day, week, month, year, or live data).</li>
-      <li>Created a cross-platform mobile application for Android and iOS using React Native, with similar functionality to the Raspberry Pi GUI app for data visualization and analysis.</li>
-    </ul>
-    <h3>Snake-like Game (Java)</h3>
-    <img src="images/snake.jpg" alt="Snake-like Game" width="300" height="200">
-    <p>Programmed a snake-like game in Java using object-oriented programming principles, which included features like score tracking, sound effects, and a computer-controlled player.</p>
-    <h3>Server-Client Program (Python)</h3>
-    <p>Implemented multiple backend APIs in Python, nodejs, the server is responsible for responding to client and browser calls.</p>
-    <h3>Instagram clone</h3>
-    <img src="images/instagram.jpg" alt="Instagram Clone" width="300" height="200">
-    <p>Programmed a clone of Instagram's home page with beautiful design and animation using React, CSS, and JS.</p>
-    <h3>Sudoku Solver (Java, JS)</h3>
-    <img src="images/Sudoku.png" alt="Instagram Clone" width="300" height="200">
-    <p>Implemented a Sudoku solver in Java and JavaScript, which can solve any valid Sudoku puzzle by applying logical deduction rules, and designed a web page for it.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2024 Bader Amer. All rights reserved.</p>
-  </footer>
+    <footer class="site-footer">
+        <p>&copy; 2024 Bader Amer. All rights reserved.</p>
+    </footer>
 </body>
 </html>
